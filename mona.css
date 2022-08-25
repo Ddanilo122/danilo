@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alumni+Sans+Collegiate+One:ital@1&display=swap');
+
+
+body{
+background:#cbb;
+}
+#poder{
+     background-color:crimson ;
+     padding: 20px;
+     margin: 20px;
+     
+}
+#bio{
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px;
+    border-color:red ;
+}
+.menu{
+    z-index: 10;
+    position:fixed;
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    right: 30px;
+    top: 10px;
+    cursor: pointer;
+    list-style:none
+    
+
+}
+.link{
+    float:left;
+    font-size: 30px;
+    font-family:fantasy ;
+    padding: 9px;
+
+}
+#nome{
+    font-size:30px ;
+ font-family: 'Aboreto', cursive;;
+    color:black ;
+
+}
+    a{
+        color:red;
+    text-decoration:none;}
+
+    a:hover{
+        transition:3s;
+        color:yellowgreen
+        font-size:40px
+        text-decoration:underline overline;
+    }
